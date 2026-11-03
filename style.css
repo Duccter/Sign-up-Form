@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&display=swap");
+
+@font-face {
+  font-family: Norse;
+  src: url("fonts/Norse.woff2") format("woff2");
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Norse;
+  src: url(fonts/Norse-Bold.woff2) format("woff2");
+  font-weight: bold;
+  font-display: swap;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+.intro-text p {
+  font-weight: 500;
+}
+
+input,
+button {
+  font-family: inherit;
+  appearance: none;
+  /* box-shadow: 2px 2px 5px 0; */
+}
+
+.sign-up-form-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.background-img {
+  height: 100vh;
+  width: auto;
+  min-width: max-content;
+}
+
+.signup-container {
+  display: flex;
+  width: 40vw;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group input {
+  width: 200px;
+  padding: 4px 10px;
+}
+
+.form-section {
+  background-color: #f9fafb;
+  flex: 1;
+  padding: 8vh 0 5vh 0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  height: 100vh;
+  min-width: 50vh;
+}
+
+.btn {
+  background-color: #596d48;
+  color: white;
+  padding: 9px 40px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.input-group label {
+  font-size: 0.75rem;
+}
+
+a:visited {
+  color: #596d48;
+}
+
+.intro-text {
+  padding: 0 5vw;
+}
+.signup-form {
+  background-color: #ffffff;
+  padding: 25px 5vw 35px 5vw;
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.form-actions {
+  padding: 0 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.signup-form h2 {
+  margin-bottom: 20px;
+}
+
+/* border: 1px solid #3b82f6; */
+
+/* input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"]  */
+
+.type-type {
+  border-radius: 10px;
+  border: 2px solid #e5e7eb;
+  outline: none;
+}
+
+.type-type:focus {
+  border: 2px solid #3b82f6;
+  box-shadow: 2px 2px 5px 0 rgba(15, 24, 40, 0.3);
+}
+
+.type-type:user-invalid {
+  border: 2px solid red;
+}
+
+.bg-section {
+  position: relative;
+  min-height: max-content;
+}
+
+.logo-content {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(16, 0, 0, 0.442);
+  min-width: max-content;
+}
+
+.logo {
+  width: 100px;
+}
+
+.title {
+  font-size: 5rem;
+  color: white;
+}
